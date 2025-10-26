@@ -5,15 +5,15 @@ import { ExternalLink, Github } from "lucide-react"
 
 const projects = [
   {
-    title: "Plateforme E-commerce Complète & Moderne",
-    description:
-      "Cette plateforme e-commerce offre une expérience utilisateur fluide et efficace. Interface utilisateur moderne et responsive : développée avec React et stylisée avec Tailwind CSS pour un design épuré et ergonomique.",
-
-    image: "/modern-ecommerce-interface.png",
-    technologies: ["React", "Node.js","Tailwind CSS"],
-    liveUrl: "https://e-commercesite-zeta.vercel.app/",
-    githubUrl: "https://e-commercesite-zeta.vercel.app/",
+  title: "Montre de Luxe – Boutique Élegante & Moderne",
+  description:
+  "Montre de Luxe est une plateforme e-commerce raffinée dédiée aux montres haut de gamme. Le site offre une expérience utilisateur fluide, moderne et immersive, permettant de découvrir et admirer chaque modèle avec des visuels de haute qualité. Conçu avec React et Tailwind CSS, il allie performance, design responsive et navigation intuitive.",
+  image: "/luxury-watch-ecommerce.png",
+  technologies: ["Html", "Tailwind CSS", "JavaScript", "Firebase"],
+  liveUrl: "https://montre-de-luxe.vercel.app/",
+  githubUrl: "https://montre-de-luxe.vercel.app/"
   },
+  
   {
     title: "TLB Express – Site de Promotion et Présentation Produits",
   description:
@@ -35,22 +35,22 @@ const projects = [
   githubUrl: "https://github.com/tonprofil/nail-studio",
 },
 {
-  title: "Snake Game",
+  title: "Brioch Art – Site Vitrine Artistique & Élégant",
   description:
-    "Jeu Snake classique revisité pour le web, avec contrôles fluides, score en temps réel et design responsive.",
-  image: "/preview/project4.png",
-  technologies: ["HTML", "CSS", "JavaScript"],
-  liveUrl: "https://snake-game-dun-five.vercel.app",
-  githubUrl: "https://github.com/example/snake-game",
+    "Brioch Art est un site vitrine moderne réalisé en HTML, CSS, Tailwind et JavaScript. Il met en valeur les créations artisanales et artistiques de la marque avec une présentation soignée, des animations douces et une interface responsive. Le site permet de découvrir les œuvres, la galerie et les informations de contact dans une ambiance visuelle raffinée.",
+    image: "/project4.png",
+  technologies: ["HTML", "Tailwind CSS", "JavaScript"],
+  liveUrl: "https://brioch-art1.vercel.app/",
+  githubUrl: "https://brioch-art1.vercel.app/"
 },
 {
-  title: "Calculatrice",
+  title: "Showroom Voiture – Galerie Interactive de Véhicules",
   description:
-    "Application web de calculatrice simple et responsive, prenant en charge les opérations de base avec une interface moderne et intuitive.",
+    "Showroom Voiture est un site vitrine dynamique dédié à la présentation de modèles automobiles. Développé en HTML, CSS (Tailwind) et JavaScript, il met en avant les véhicules avec une interface fluide et responsive, privilégiant l’expérience visuelle et l’engagement utilisateur.",
   image: "/api-docs-social-interface.png",
-  technologies: ["HTML", "CSS", "JavaScript"],
-  liveUrl: "https://calculatrice-theta.vercel.app",
-  githubUrl: "https://github.com/example/calculatrice",
+  technologies: ["HTML", "Tailwind CSS", "JavaScript"],
+  liveUrl: "https://badridehri.github.io/showroom-voiture",
+  githubUrl: "https://badridehri.github.io/showroom-voiture"
 },
 
 {
