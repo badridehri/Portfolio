@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import { motion } from "framer-motion"
+import Link from "next/dist/client/link"
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
@@ -20,13 +21,15 @@ export default function Navbar() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
     >
-      <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+    <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+      <Link href="/" passHref>
         <motion.div
-          className="text-2xl font-bold bg-gradient-to-r from-[#15803D] to-[#22c55e] bg-clip-text text-transparent"
+          className="text-2xl font-bold bg-gradient-to-r from-[#15803D] to-[#22c55e] bg-clip-text text-transparent cursor-pointer"
           whileHover={{ scale: 1.05 }}
         >
           Badridev
         </motion.div>
+      </Link>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex gap-8">
