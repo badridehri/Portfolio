@@ -23,7 +23,7 @@ export default function Hero() {
         setDisplayedRole("")
         setCharIndex(0)
         setRoleIndex((prev) => (prev + 1) % roles.length)
-      }, 2000)
+      }, 700)
       return () => clearTimeout(timer)
     }
   }, [charIndex, roleIndex])
