@@ -43,7 +43,7 @@ export default function Projects() {
       description: "Showroom Voiture est un site vitrine dynamique dédié à la présentation de modèles automobiles. Développé en HTML, CSS (Tailwind) et JavaScript, il met en avant les véhicules avec une interface fluide et responsive, privilégiant l’expérience visuelle et l’engagement utilisateur.",
       image: "/api-docs-social-interface.png",
       tags: ["React", "D3.js", "Node.js"],
-      link: "#",
+      link: "https://showroom-voiture.vercel.app",
     },
     {
       id: 6,
