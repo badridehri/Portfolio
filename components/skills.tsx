@@ -5,22 +5,22 @@ import SkillBar from "./skill-bar"
 
 export default function Skills() {
   const skills = [
-    { name: "HTML5", percentage: 99 },
-    { name: "CSS3", percentage: 99 },
-    { name: "JavaScript", percentage: 92 },
-    { name: "React", percentage: 90 },
-    { name: "Vue.js", percentage: 90 },
-    { name: "Node.js", percentage: 90 },
-    { name: "Django", percentage: 85 },
-    { name: "Firebase", percentage: 95 },
-    { name: "Python", percentage: 90 },
-    { name: "Next.js", percentage: 75 },
-    { name: "Git", percentage: 90 },
-    { name: "GitHub", percentage: 95 },
+    { name: "HTML5", percentage: 80 },
+    { name: "CSS3", percentage: 75 },
+    { name: "JavaScript", percentage: 70 },
+    { name: "React", percentage: 70 },
+    { name: "Vue.js", percentage: 50 },
+    { name: "Node.js", percentage: 70 },
+    { name: "Django", percentage: 65 },
+    { name: "Firebase", percentage: 80 },
+    { name: "Python", percentage: 70 },
+    { name: "Next.js", percentage: 60 },
+    { name: "Git", percentage: 80 },
+    { name: "GitHub", percentage: 90 },
     { name: "Vercel", percentage: 90 },
-    { name: "Linux", percentage: 82 },
-    { name: "MongoDB", percentage: 85 },
-    { name: "MySQL", percentage: 80 },
+    { name: "Linux", percentage: 70 },
+    { name: "MongoDB", percentage: 80 },
+    { name: "MySQL", percentage: 65 },
   ]
 
   const containerVariants = {
