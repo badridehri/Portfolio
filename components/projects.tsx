@@ -11,7 +11,7 @@ export default function Projects() {
       description: "Montre de Luxe est une plateforme e-commerce raffinée dédiée aux montres haut de gamme. Le site offre une expérience utilisateur fluide, moderne et immersive, permettant de découvrir et admirer chaque modèle avec des visuels de haute qualité. Conçu avec React et Tailwind CSS, il allie performance, design responsive et navigation intuitive.",
       image: "/modern-ecommerce-interface.png",
       tags: ["Html", "TailwindCss", "JavaScript" ,"FireBase"],
-      link: "https://montre-de-luxe.vercel.app/ ",
+      link: "https://final-orcin-eight-13.vercel.app",
     },
     {
       id: 2,
